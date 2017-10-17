@@ -10,6 +10,7 @@
     <form id="form1" runat="server">
         <div>
             1.Prva izmena
+            2.Izmena Commit all and push
         </div>
     </form>
 </body>
