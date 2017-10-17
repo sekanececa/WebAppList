@@ -11,6 +11,7 @@
         <div>
             1.Prva izmena
             2.Izmena Commit all and push
+            3. Commit and sync
         </div>
     </form>
 </body>
