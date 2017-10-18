@@ -148,8 +148,29 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Commits.aspx.cs">
+      <DependentUpon>Commits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Commits.aspx.designer.cs">
+      <DependentUpon>Commits.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\tblTODOesController.cs" />
+    <Compile Include="FirstBranch1.aspx.cs">
+      <DependentUpon>FirstBranch1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirstBranch1.aspx.designer.cs">
+      <DependentUpon>FirstBranch1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FirstBranchChange2.aspx.cs">
+      <DependentUpon>FirstBranchChange2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirstBranchChange2.aspx.designer.cs">
+      <DependentUpon>FirstBranchChange2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -174,11 +195,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Commits.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
+    <Content Include="FirstBranch1.aspx" />
+    <Content Include="FirstBranchChange2.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
