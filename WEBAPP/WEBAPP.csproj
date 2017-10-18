@@ -164,6 +164,13 @@
     <Compile Include="FirstBranch1.aspx.designer.cs">
       <DependentUpon>FirstBranch1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FirstBranchChange2.aspx.cs">
+      <DependentUpon>FirstBranchChange2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirstBranchChange2.aspx.designer.cs">
+      <DependentUpon>FirstBranchChange2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -202,6 +209,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="FirstBranch1.aspx" />
+    <Content Include="FirstBranchChange2.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
