@@ -9,11 +9,14 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <table>
             <td>
-                <asp:Label ID="Label1" runat="server" Text="Hello"></asp:Label>
+                <asp:Label ID="Label1" runat="server" Text="Hello world"></asp:Label>
+
 </td>
             <td>
                 <asp:Button ID="Button1" runat="server" Text="Click me" /></td>
+                </table>
         </div>
     </form>
 </body>
