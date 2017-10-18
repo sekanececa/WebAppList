@@ -18,10 +18,6 @@
                 <asp:Label ID="Label2" runat="server" Text="Hello world2"></asp:Label>
 
 </td>
-                <td>
-                <asp:Label ID="Label3" runat="server" Text="Hello world2"></asp:Label>
-
-</td>
                 
                 <td>
                 <asp:Label ID="Label5" runat="server" Text="Hello world2"></asp:Label>
