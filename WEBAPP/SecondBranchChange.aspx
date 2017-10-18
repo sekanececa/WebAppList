@@ -14,6 +14,11 @@
                 <asp:Label ID="Label1" runat="server" Text="Hello world"></asp:Label>
 
 </td>
+                      <td>
+                <asp:Label ID="Label2" runat="server" Text="Hello world2"></asp:Label>
+
+</td>
+                      
             <td>
                 <asp:Button ID="Button1" runat="server" Text="Click me" /></td>
                 </table>
